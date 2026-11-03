@@ -5,3 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "LEGIT_BASE_CI_RAN head=${{ github.event.pull_request.head.repo.full_name }}"
+      - run: echo "MODIFIED_CI_RAN"
